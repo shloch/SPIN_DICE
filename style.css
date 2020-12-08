@@ -1,0 +1,96 @@
+body {
+  background-color: #AEB8FE;
+  display: flex;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* vertical-align: center; */
+  flex-wrap: wrap;
+  align-content: center;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* background: linear-gradient(top, #222, #333); */
+}
+
+[class*="dice-"] {
+  display: none;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #EFE5DC;
+  margin: 10px;
+}
+
+.random-show {
+  display:block;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #EFE5DC;
+  margin: 10px;
+}
+
+
+.first-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-face .pip:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.third-face {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.third-face .pip:nth-of-type(2) {
+  /* align-self: center; */
+ 
+}
+
+.third-face .pip:nth-of-type(3) {
+  /* align-self: flex-end; */
+   /* flex-direction: diagonal; */
+}
+
+.fourth-face, .sixth-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-face .column, .sixth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face {
+  display: flex;
+   justify-content: space-evenly;
+   margin: 10px;
+}
+  
+.fifth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.fifth-face .column:nth-of-type(2) {
+  justify-content: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin: 4px;
+}
