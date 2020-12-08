@@ -5,9 +5,9 @@ Click on the dice to spin it and change the face (still to work on animation)
 
 ## Live demo
 
-https://raw.githack.com/shloch/weather_app/weather_module/dist/index.html
+https://raw.githack.com/shloch/SPIN_DICE/main/index.html
 
-![alt text](https://github.com/shloch/weather_app/blob/weather_module/dist/assets/screenshot_weather.png)
+![alt text](https://github.com/shloch/SPIN_DICE/blob/main/dice.gif)
 
 ## Contributors
 
